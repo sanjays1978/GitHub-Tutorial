@@ -1,0 +1,66 @@
+git init
+git add
+git commit -m "message"
+
+git status
+git commit -a -m "message"
+
+git ls-files
+
+git rm <file>   ============> This will delete file from both working directory and local repository
+
+git rm --cached <file>  ============> This will delete file from local repo and not from working directory
+
+.gitignore
+
+git log
+
+git log --oneline
+
+git show <commit id>
+
+	
+
+git revert <commitid>
+
+git tag -a <tagname> -m <message> <commit id>
+
+git tag
+
+git show <tag id>
+
+git reset --hard <commit id>
+
+git commit --amend -m <modified message> 
+
+git diff <commitid> <commitid>
+
+git config --list
+
+git config --edit
+
+git branch
+
+git checkout -b <new branch name> master
+
+git merge b1
+
+git cherry-pick <commit id>
+
+git rebase master
+
+git stash
+
+git stash list
+
+git stash pop <stash id>
+
+git remote add origin git@github.optum.com:sshar47/1707.git
+git remote -v
+
+git push origin master
+
+git pull origin master
+
+git clone <remote repo path>
+
